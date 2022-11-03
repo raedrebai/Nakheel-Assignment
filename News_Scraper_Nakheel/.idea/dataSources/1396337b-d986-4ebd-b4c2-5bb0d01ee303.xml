@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@DB_Connection">
+  <database-model serializer="dbm" dbms="MONGO" family-id="MONGO" format-version="4.43">
+    <root id="1">
+      <ServerVersion>5.0.13</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="News_Scrapper">
+      <Current>1</Current>
+    </schema>
+    <schema id="3" parent="1" name="admin"/>
+    <schema id="4" parent="1" name="local"/>
+    <schema id="5" parent="1" name="sample_airbnb"/>
+    <schema id="6" parent="1" name="sample_analytics"/>
+    <schema id="7" parent="1" name="sample_geospatial"/>
+    <schema id="8" parent="1" name="sample_guides"/>
+    <schema id="9" parent="1" name="sample_mflix"/>
+    <schema id="10" parent="1" name="sample_restaurants"/>
+    <schema id="11" parent="1" name="sample_supplies"/>
+    <schema id="12" parent="1" name="sample_training"/>
+    <schema id="13" parent="1" name="sample_weatherdata"/>
+    <table id="14" parent="2" name="News"/>
+  </database-model>
+</dataSource>
